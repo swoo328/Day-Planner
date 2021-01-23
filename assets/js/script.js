@@ -5,13 +5,4 @@ $(document).ready(function () {
       setInterval(writeTime, 1000);
     }
     writeTime();
-
-      //current date and time variables
-  var m = moment();
-  var currentTime = m.format("MMMM Do YYYY, h:mm:ss a");
-  var currentDate = m.format("MMM Do YYYY");
-  var currentHour = moment().hours();
-  console.log("current hour: ", currentHour);
-  console.log(currentTime);
-  
 });
