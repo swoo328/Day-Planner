@@ -56,6 +56,10 @@ textarea{
   background-color: #77dd77;
   color: white;
 }
+/* expand the textarea length */
+.form-control-lg{
+  padding:0.5rem 22rem;
+}
 
 .saveBtn {
   border-left: 1px solid black;
