@@ -1,7 +1,7 @@
 # Day-Planner
 
 # Screenshot
-
+![](assets/images/screenshot.png)
 # git url
 https://swoo328.github.io/Day-Planner/
 
