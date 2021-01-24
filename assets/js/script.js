@@ -21,4 +21,12 @@ $(document).ready(function () {
 
     })
 });
+//displays the values from the local storage
+var hour = ["hour9", "hour10", "hour11", "hour12", "hour13", "hour14", "hour15", "hour16", "hour17"]
+for(var i = 0; i <= hour.length; i++){
+    console.log(hour[i]);
+    $(`${hour[i]} .description`).val(localStorage.getItem(hour[i]));
+}
 
+
+//
